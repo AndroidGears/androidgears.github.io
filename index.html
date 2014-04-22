@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="ROBOTS" content="NOODP" />
+  <title>AndroidGears</title>
+  <link href="css/application.css" media="all" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300,100' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+</head>
+<body class="<%= body_class %>">
+  <!-- Top Section -->
+<div class="top_section">
+  <img src="img/logo.svg" /><br />
+  <h1>GEARS</h1>
+  <h4 style="margin: 50px 0 0;">Dependency management for the world of tomorrow.</h4>
+</div>
+
+<!-- Explanation Section -->
+<div class="info_section"><div style="display:inline-block;">
+  <div class="info_sub_section">
+    <h2>What is Android Gears?</h2>
+    <p class="info"><b>Android Gears</b> is a new dependency management system built on open source technology through <a href="https://github.com/AndroidGears/Plugin">GitHub</a>. Gears is fully integrated with the Gradle build processes of Android Studio and IntelliJ. In addition to providing a robust search interface for library discovery, Gears greatly reduces the effort it takes to share your library with others. Listing your library with Android Gears is just a pull request away. Installing the plugin is just as simple.</p>
+  </div>
+
+  <div class="info_sub_section">
+    <h2>Installing</h2>
+    <p class="info" style="margin: 10px 0;"><a href="https://github.com/AndroidGears/Plugin/releases" class="button">Download the latest stable Release! (v0.2.0)</a></p>
+    <p class="info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+  </div>
+
+  <div class="info_sub_section">
+    <h2>Using the Plugin</h2>
+    <img src="https://raw.githubusercontent.com/AndroidGears/Resources/master/Screenshots/ColoursInstallDemo.gif" style="max-width: 100%"/>
+    <p class="info">
+      Adding a library to your app: <b>Tools > Android Gears > Manage Android Gears</b><br />
+      Creating a library to share: <b>Tools > Android Gears > Create Gear Spec</b>
+    </p>
+  </div>
+
+  <div class="info_sub_section">
+    <h2>Creating a .gearspec</h2>
+    <pre>
+{
+  "name": "Colours",
+  "summary": "A beautiful set of predefined colors and a
+             set of color methods to make your Android
+             development life easier.",
+  "version": "1.0.0",
+  "type": "module",
+  "copyright": "Matthew York 2014",
+  "homepage": "https://github.com/MatthewYork/Colours",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew York",
+      "email": "myork@cs.ua.edu"
+    }
+  ],
+  "minimum_api": 9,
+  "source": {
+    "url": "https://github.com/MatthewYork/Colours.git",
+    "tag": "v1.0.0",
+    "source_files": "ColoursLibrary"
+  },
+  "dependencies": null,
+  "tags": [
+    "color",
+    "colour",
+    "utility",
+    "hsb",
+    "rgb",
+    "scheme"
+  ]
+}</pre>
+  </div>
+
+  <div class="info_sub_section">
+    <h2>Authors</h2>
+    <h3>The Team</h3>
+    <p class="info"><a href="https://github.com/MatthewYork" >@MatthewYork</a>, <a href="https://github.com/adfleshner" >@adfleshner</a>, <a href="https://github.com/bennyguitar" >@bennyguitar</a></p>
+    <h3>Contributors</h3>
+    <p class="info">@lorem  @ipsum  @dolor  @sit  @amet</p>
+  </div>
+
+
+</div>
+</div>
+
+  <div class="fixed_footer">
+    <img src="img/logo_small_black.svg" class="footer_image" />
+    <p class="footer"><a href="#">About</a>  |  <a href="#">Install</a>  |  <a href="#">Documentation</a>  |  <a href="#">Contact</a>  |  <a href="https://github.com/AndroidGears">GitHub</a></p>
+  </div>
+</body>
+</html>
